@@ -109,12 +109,25 @@ main {
 }
 
 /* Media Query */
-@media (min-width: 800px){
+@media only screen and  (min-width: 800px){
     html, body{
         margin:0 auto;
         width: 80%;
     }
 
 
+}
+@media only screen and  (max-width: 500px ) {
+    .container{
+        
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        
+    }
+    .header{
+        width: 100%;
+    }
+    
 }
 
